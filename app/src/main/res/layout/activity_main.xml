@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.lvwenjing.week03text.MainActivity">
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存数据" />
+
+    <Button
+        android:id="@+id/shellbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="展示信息" />
+
+    <Button
+        android:id="@+id/showphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="展示图片" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
